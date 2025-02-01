@@ -1,0 +1,39 @@
+table 
+{
+width: 100%;
+border-collapse: collapse;
+bottom: 1;
+background-color: lightskyblue;
+font-size: 25px;
+}
+td 
+{
+border: 1px solid black;
+padding: 10px;
+vertical-align: top;
+background-color: lightgray;
+}
+h2 
+{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+
+}
+p 
+{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    vertical-align: center;
+}
+h1
+{
+    font-family: georgia. center;
+    font-size: 40px;
+    color: darkgray;
+}
+td
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    vertical-align: left;
+}

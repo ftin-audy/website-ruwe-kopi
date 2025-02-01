@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../IMAGESS/hee.jpg'); /* Fixed path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+/* Navbar */
+.navbar {
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+/* Contact Info & Form */
+.location, .form-section {
+    background-color: beige;
+    padding: 20px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px gray;
+}
+
+h2 {
+    color: brown;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: firebrick;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+/* Social Media */
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Map */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
